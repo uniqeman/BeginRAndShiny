@@ -7,7 +7,7 @@ shinyServer(function(input, output) {
     # number of observations
     dist <- rnorm(input$obs)
     hist(dist)
-    
+    dist
   })
   
 })
